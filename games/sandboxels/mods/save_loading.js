@@ -425,7 +425,7 @@ Pixel size (rendering only): <input id="pixelSize"> (Use if the save looks cut o
 		desc: saveLoaderDescription,
 	};
 
-	//Somehow, for some illogical reason, quicksaving causes updateStats to somehow disregard its if-statement and fucking TypeError when you mouse over an empty space; this is an attempt to fix it with overkill-level existence checks.
+	//Somehow, for some illogical reason, quicksaving causes updateStats to somehow disregard its if-statement and ducking TypeError when you mouse over an empty space; this is an attempt to fix it with overkill-level existence checks.
 	function updateStats() {
 		var statsDiv = document.getElementById("stats");
 		var stats = "<span id='stat-pos' class='stat'>x"+mousePos.x+",y"+mousePos.y+"</span>";

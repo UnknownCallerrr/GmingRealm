@@ -143,7 +143,7 @@ if(enabledMods.includes(libraryMod)) {
 
 	//carbon dioxide {
 
-		/*fuck this, i can't work out the offset-infested math
+		/*duck this, i can't work out the offset-infested math
 		function carbonDioxideDecompRatio(temp) {
 			//
 			//	K is the ratio of O_2 to CO_2
@@ -357,7 +357,7 @@ if(enabledMods.includes(libraryMod)) {
 			elements.baked_clay = {}
 		}
 
-		elements.baked_clay.tempHigh = 1600 //the range of melting points online is so fucking wide
+		elements.baked_clay.tempHigh = 1600 //the range of melting points online is so ducking wide
 		elements.baked_clay.stateHigh = "molten_clay"
 
 		elements.molten_clay = {

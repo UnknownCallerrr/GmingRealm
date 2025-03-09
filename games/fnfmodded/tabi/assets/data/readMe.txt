@@ -9,7 +9,7 @@ Tabi
 Enhanced
 Dialogue
 Format
-idk why the fuck i came up with that
+idk why the duck i came up with that
 and i dont care
 anyhow
 the usage is pretty simple
@@ -20,7 +20,7 @@ but uh
 enable and disable the typing sound
 :switchSound:(sound path)
 this uh change typing sound to that
-:sound:(fuckumate)
+:sound:(duckumate)
 that plays a sound
 :soundoverwrite:(path again)
 this makes a sound variable
@@ -79,7 +79,7 @@ and umm if u wanna change the fade uh color
 u know
 same as makegraphic format
 lol
-theres also music shit
+theres also music poop
 :musicloop:(music path)
 :music:(music path)
 :musicstop:

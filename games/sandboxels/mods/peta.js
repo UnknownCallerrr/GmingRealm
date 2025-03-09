@@ -145,7 +145,7 @@ let happened = false;
 const forbiddenElements = ["meat", "rotten_meat", "cooked_meat", "frozen_meat", "milk", "cream", "fruit_milk", "pilk", "yogurt", "frozen_yogurt", "ice_cream", "egg", "yolk", "hard_yolk", "chocolate_milk", "eggnog"]
 
 const messages = ["What are you trying to do?! That behavior is unnacceptable. Those animals didn't do anything to deserve this. You have {warning} warnings left before we delete half of your elements.",
-    "You really think we can't do anything huh? Fuck around and find out. {warning} warnings left",
+    "You really think we can't do anything huh? Duck around and find out. {warning} warnings left",
     "We have no words for you, how dare you?! {warning} warnings left",
     "That is completely unbelievable. {warning} warnings left",
     "That is your last chance. If you try it one more time, we WILL remove half of your elements. Do you really want to do it?",

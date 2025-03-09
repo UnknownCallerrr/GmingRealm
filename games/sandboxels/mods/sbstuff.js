@@ -1356,7 +1356,7 @@ elements.cranberry = {
 };
 
 elements.yoyleberries = {
-	desc: "who the fuck requested yoylecake?",
+	desc: "who the duck requested yoylecake?",
 	viscosity: 10000,
     hidden: true,
     tempHigh: 300,
@@ -1466,7 +1466,7 @@ elements.lololol_this_crashes_ur_game_lololol_why_would_you_want_to_use_this_lol
     excludeRandom: true,
     maxSize: 1,
     noMix: true,
-	desc: "ok now ACTUALLY use it at your own risk IM NOT KIDDING! THIS CAN FUCKING CRASH YOUR GAME",
+	desc: "ok now ACTUALLY use it at your own risk IM NOT KIDDING! THIS CAN DUCKING CRASH YOUR GAME",
 	excludeRandom: true,
 };
 

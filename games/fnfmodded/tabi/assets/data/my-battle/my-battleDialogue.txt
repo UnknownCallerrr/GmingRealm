@@ -49,7 +49,7 @@
 :bf-right:Skbeep?
 :disableTypeSound:
 :sound:GF_1
-:gf-hmm:Shit...
+:gf-hmm:poop...
 :class-use:Cutscene1
 :bg:cutscenes/2
 :switchSound:tabiText
@@ -135,7 +135,7 @@
 :bf-right:Skbeep?
 :disableTypeSound:
 :soundoverwrite:voices/bath/5
-:gf-hmm:Shit...
+:gf-hmm:poop...
 :soundoverwritestop:
 :class-use:Cutscene1
 :bg:cutscenes/2

@@ -1,4 +1,4 @@
-var modName = "mods/../a_mod_by_alice.js" //can't do "alice's mod" because the apostrophe will fuck up code, be too confusing, or both
+var modName = "mods/../a_mod_by_alice.js" //can't do "alice's mod" because the apostrophe will duck up code, be too confusing, or both
 //Version ω0.3 [Corium update]
 var dependencies = ["mods/libhooktick.js", "mods/chem.js", "mods/minecraft.js", "mods/Neutronium Mod.js", "mods/fey_and_more.js", "mods/velocity.js", "mods/ketchup_mod.js", "mods/moretools.js", "mods/aChefsDream.js", "mods/nousersthings.js"];  //thanks to mollthecoder, PlanetN9ne, StellarX20 (3), MelecieDiancie, R74n, Nubo318, Sightnado, SquareScreamYT, and NoUsernameFound
 var dependencyExistence = dependencies.map(x => enabledMods.includes(x));
@@ -9299,7 +9299,7 @@ color1 and color2 spread through striped paint like dye does with itself. <u>col
 		},
 		renderer: function(pixel,ctx) {
 			if(shiftDown || currentElement == pixel.element) {
-				//for some reason the range is fucked up (centered around the top left of the pixel, and always even) so that's the behavior we need to indicate
+				//for some reason the range is ducked up (centered around the top left of the pixel, and always even) so that's the behavior we need to indicate
 				drawSquare(ctx, "#202020", pixel.x - 0.5, pixel.y - 0.5);
 				
 				if(pixel.range !== undefined) {
@@ -9431,7 +9431,7 @@ color1 and color2 spread through striped paint like dye does with itself. <u>col
 		renderer: function(pixel,ctx) {
 			drawSquare(ctx, "#ffffff", pixel.x - 0.5, pixel.y - 0.5);
 			if(shiftDown || currentElement == pixel.element) {
-				//for some reason the range is fucked up (centered around the top left of the pixel, and always even) so that's the behavior we need to indicate
+				//for some reason the range is ducked up (centered around the top left of the pixel, and always even) so that's the behavior we need to indicate
 				
 				if(pixel.range !== undefined) {
 					var centerX = (pixel.x) * pixelSize;
@@ -13676,7 +13676,7 @@ Pixel size (rendering only): <input id="pixelSize"> (Use if the save looks cut o
 				return displayTemp
 			};
 
-			//Somehow, for some illogical reason, quicksaving causes updateStats to somehow disregard its if-statement and fucking TypeError when you mouse over an empty space; this is an attempt to fix it with overkill-level existence checks.
+			//Somehow, for some illogical reason, quicksaving causes updateStats to somehow disregard its if-statement and ducking TypeError when you mouse over an empty space; this is an attempt to fix it with overkill-level existence checks.
 			function updateStats() {
 				var statsDiv = document.getElementById("stats");
 				var stats = "<span id='stat-pos' class='stat'>x"+mousePos.x+",y"+mousePos.y+"</span>";
@@ -14923,7 +14923,7 @@ Pixel size (rendering only): <input id="pixelSize"> (Use if the save looks cut o
 						density: 666,
 					};
 				//Alcohol
-					//Fuck no I'm not doing 8 isomers
+					//duck no I'm not doing 8 isomers
 				//Benzene ver.
 					//i'm tired
 			//Vodka
@@ -17110,7 +17110,7 @@ Pixel size (rendering only): <input id="pixelSize"> (Use if the save looks cut o
 			},
 		//}
 		//carbon dioxide {
-			/*fuck this, i can't work out the offset-infested math
+			/*duck this, i can't work out the offset-infested math
 			function carbonDioxideDecompRatio(temp) {
 				//
 				//	K is the ratio of O_2 to CO_2
@@ -17293,7 +17293,7 @@ Pixel size (rendering only): <input id="pixelSize"> (Use if the save looks cut o
 			if(!elements.baked_clay) {
 				elements.baked_clay = {}
 			}
-			elements.baked_clay.tempHigh = 1600 //the range of melting points online is so fucking wide
+			elements.baked_clay.tempHigh = 1600 //the range of melting points online is so ducking wide
 			elements.baked_clay.stateHigh = "molten_clay"
 			elements.molten_clay = {
 				color: ["#ff6d23","#ff5723","#ff4100"],
@@ -23828,7 +23828,7 @@ Pixel size (rendering only): <input id="pixelSize"> (Use if the save looks cut o
 					var newDryClayLoamColor = newClayLoamColor.map(x => changeSaturation(changeLightness(x,15,"add","hsljson"),0.9,"multiply","hex"));
 					newPowder("clay_loam",newClayLoamColor,1500,100,"dry_clay_loam",["dirt","clay_soil"]);
 					elements.clay_loam._data = ["clay_loam","soil","particulate"];
-					//manual addition due to autogen fuckery and i don't feel like calling in runAfterAutogen
+					//manual addition due to autogen duckery and i don't feel like calling in runAfterAutogen
 					elements.molten_clay_loam = {
 						"behavior": behaviors.MOLTEN,
 						"hidden": true,
@@ -45495,7 +45495,7 @@ maxPixels (default 1000): Maximum amount of pixels/changes (if xSpacing and ySpa
 		};
 
 		runAfterButtons(function() {
-			//WIDTH AND HEIGHT AREN'T DEFINED UNTIL THEN FOR SOME FUCKING REASON
+			//WIDTH AND HEIGHT AREN'T DEFINED UNTIL THEN FOR SOME duckING REASON
 			oldClearAll = clearAll;
 			clearAll = function() {
 				oldClearAll();

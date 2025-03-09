@@ -2,7 +2,7 @@
 
 :effect:fadeIn:0.4
 :effect:enterStageLeft:0.8
-:momxmas:mx5: YOU LITTLE SHIT!
+:momxmas:mx5: YOU LITTLE poop!
 :picoxmas:px6: !
 :bfxmas:bx5: !
 :dadxmas:dx6: You know...

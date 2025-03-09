@@ -1012,9 +1012,9 @@ elements.vanishing_steel = {
 	forceAutoGen: true,
 };
 
-//go fuck yourself javascript
-//why the fuck won't you FUCKING generate the molten element
-//I am not adding another FUCKING dependency today
+//go duck yourself javascript
+//why the duck won't you duckING generate the molten element
+//I am not adding another duckING dependency today
 elements.polka_dotted_powder = {
 	color: ["#000000","#000000","#7f7f7f","#ffffff","#ffffff"],
 	behavior: behaviors.POWDER,

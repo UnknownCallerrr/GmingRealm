@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rating's and Accuracy calculation (they actually work now)
 - Deleting notes
 ### Added
-- Accuracy mod toggle (complex = ms based, accurate = normal rating based. ex sick = 1, good = 0.75, bad = 0.50, shit = 0.25)
+- Accuracy mod toggle (complex = ms based, accurate = normal rating based. ex sick = 1, good = 0.75, bad = 0.50, poop = 0.25)
 - Judgement Selector (safe frames)
 
 ## [1.4.1 Nightly2]
@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.4]
 ### Edited
-- offsets work. fucking contributors
+- offsets work. ducking contributors
 ### Changed
 - Updated Judgements to contrast better with each other.
 - Changed Auto Offset to use the tutorial chart instead of a custom one
@@ -69,14 +69,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Offset now allows you to hold down to change values
 - Rating hit windows update
 ### Fixed
-- Tails being FUCKED
+- Tails being FREAKED
 
 ## [1.3.1 Nightly]
 ### Added
 - Gameplay Customization
 - The ability to change rating text's position
 ### Fixed
-- You can now get a shit
+- You can now get a poop
 - Downscroll arrows are 100% fixed.
 ### Redone
 - The rating system has been completely rewritten.

@@ -2048,7 +2048,7 @@ if(modRequirementsPartOne && modRequirementsPartTwo) {
 
 				elements.clay_loam._data = ["clay_loam","soil","particulate"];
 
-				//manual addition due to autogen fuckery and i don't feel like calling in runAfterAutogen
+				//manual addition due to autogen duckery and i don't feel like calling in runAfterAutogen
 				elements.molten_clay_loam = {
 					"behavior": behaviors.MOLTEN,
 					"hidden": true,

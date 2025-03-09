@@ -1278,7 +1278,7 @@ class GameScreen {
         return attackers.length > 0;
     }
 
-    // deep copies in javascript are so fucking annoying 
+    // deep copies in javascript are so ducking annoying 
     clone() {
         const newScreen = new GameScreen();
         newScreen.selected = structuredClone(this.selected);

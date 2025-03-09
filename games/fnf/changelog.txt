@@ -337,7 +337,7 @@ which would remove their rank if they had a lower one.
 
 ## [0.2.0] - 2020-11-01
 ### Added
-- Uhh Newgrounds release lolol I always lose track of shit.
+- Uhh Newgrounds release lolol I always lose track of poop.
 
 ## [0.1.0] - 2020-10-05
 ### Added

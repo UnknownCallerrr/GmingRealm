@@ -358,7 +358,7 @@ runAfterLoadList.push(() => drawPixels = (function() {
                     ctx.fillStyle = `rgb(${r2}, ${g2}, ${b2})`
                     ctx.fillRect(pixel.x * pixelSize - (offset ? 0.5 * pixelSize : 0), pixel.y * pixelSize, pixelSize, pixelSize);
                     ctx.globalAlpha = 1;
-                // i fucking hate it but at least it works
+                // i ducking hate it but at least it works
                 // and i dont feel like finding something that is fast and pretty
                 } else if (view == 16) {
                     ctx.globalAlpha = 1;

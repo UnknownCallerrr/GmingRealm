@@ -204,7 +204,7 @@ elements.how_the_fuck_did_you_burn_the_water = {
     behavior: behaviors.LIQUID,
     category: "joke",
     hidden: true,
-    alias: "SANS HOW THE FUCK DID YOU BURN THE WATER?",
+    alias: "SANS HOW THE FLIP DID YOU BURN THE WATER?",
 };
 
 elements.theres_a_bomb_strapped_to_my_chest = {

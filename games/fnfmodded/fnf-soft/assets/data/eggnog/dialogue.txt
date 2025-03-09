@@ -24,7 +24,7 @@
 :narrator:default: THERE THEY ARE!
 :picoxmas:px4: ?!
 :bfxmas:bx3: ... 
-:bfxmas:bx3: Fuck.
+:bfxmas:bx3: Flip.
 :picoxmas:px4: A crowd…?
 :bfxmas:bx5: ... Oh no...
 :bfxmas:bx5: What… day is it?

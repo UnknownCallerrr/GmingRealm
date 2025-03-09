@@ -20,7 +20,7 @@
 :bf-exp:Bep Bob Skbed
 :switchSound:tabiText
 :tabi-worried:I DON'T CARE ANYMORE! I WILL KILL HER HERE AND NOW NO MATTER WHAT!!!
-:fadeOut:0oh wow my man here is fucking crazy chill OUT
+:fadeOut:0oh wow my man here is freaking crazy chill OUT
 :tabi-worried:JUST TO MAKE THAT PIECE OF CRAP SHE CALLS HER FATHER FEEL PAIN
 :chromeoffset:4
 :tabi-worried:JUST DIE!!!

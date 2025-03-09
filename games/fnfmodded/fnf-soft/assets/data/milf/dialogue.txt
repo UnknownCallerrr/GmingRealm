@@ -16,7 +16,7 @@
 
 :effect:fadeIn:0.4
 :effect:enterStageLeft:0.8
-:pico:p6: You fucking whore!
+:pico:p6: You freaking hore!
 :pico:p6: All I’ve ever done is love and care for him.
 :pico:p6: That’s more than you or your monster of a husband can say.
 :bf:b26: Pico...

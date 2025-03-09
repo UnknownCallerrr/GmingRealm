@@ -27,7 +27,7 @@ Blantados did Vocals and Charting for "Your Reality"! - https://www.youtube.com/
 Ash implemented Alt animations per note and helped with adding the ending song cutscenes! - https://gamebanana.com/members/1813477
 Cval, Thank you for Charting the second song! - https://twitter.com/cval_brown
 Lumitic, the mad lad that actually knows how to code and helped with the project. - https://twitter.com/PeacefulLuma
-Zeexel32 really likes the fucking mcrib for some reason. - https://twitter.com/Zeexel32
+Zeexel32 really likes the mcrib for some reason. - https://twitter.com/Zeexel32
 Matt$ for Remastering Monika Vocals - https://twitter.com/matt_currency
 foomfs for Thumbnail Design - https://twitter.com/foomfs
 

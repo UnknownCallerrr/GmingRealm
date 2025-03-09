@@ -384,7 +384,7 @@ elements.steampunk_pancakes = {
     burn:3,
     burnTime:500,
     burnInto: ["fire","smoke","smoke","steam","ash"],
-	//I have no idea why i added this, but when i removed it and started the mod, the mod removed itself. Words can't explain my fucking confusion.
+	//I have no idea why i added this, but when i removed it and started the mod, the mod removed itself. Words can't explain my ducking confusion.
 };
 
 
