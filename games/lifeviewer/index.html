@@ -1,45 +1,155 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="LifeViewer" content="viewer textarea 150 fullscreen /rules/ .rule">
-		<script src="js/compatibility.js"></script>
-		<script src="js/allocator.js"></script>
-		<script src="js/alias.js"></script>
-		<script src="js/canvasmenu.js"></script>
-		<script src="js/patterns.js"></script>
-		<script src="js/colours.js"></script>
-		<script src="js/box.js"></script>
-		<script src="js/snapshot.js"></script>
-		<script src="js/life.js"></script>
-		<script src="js/hrot.js"></script>
-		<script src="js/random.js"></script>
-		<script src="js/stars.js"></script>
-		<script src="js/waypoint.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/window.js"></script>
-		<script src="js/keywords.js"></script>
-		<script src="js/help.js"></script>
-		<script src="js/parser.js"></script>
-		<script src="js/keys.js"></script>
-		<script src="js/lifeview.js"></script>
-		<title>LifeViewer | GmingRealm</title>
-		<link rel="shortcut icon" href="../../images/ico.ico" type="image/x-icon">
-		<script src="../../storage/js/cloak.js"></script>
-	</head>
-	<body>
-		<div class="viewer">
-			<canvas width="560" height="560"></canvas> 
-			<br>
-			<textarea rows=5 cols=89 style="display:inline-block; vertical-align:top">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="LifeViewer" content="viewer textarea 150 fullscreen /rules/ .rule">
+	<script src="js/compatibility.js"></script>
+	<script src="js/allocator.js"></script>
+	<script src="js/alias.js"></script>
+	<script src="js/canvasmenu.js"></script>
+	<script src="js/patterns.js"></script>
+	<script src="js/colours.js"></script>
+	<script src="js/box.js"></script>
+	<script src="js/snapshot.js"></script>
+	<script src="js/life.js"></script>
+	<script src="js/hrot.js"></script>
+	<script src="js/random.js"></script>
+	<script src="js/stars.js"></script>
+	<script src="js/waypoint.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/window.js"></script>
+	<script src="js/keywords.js"></script>
+	<script src="js/help.js"></script>
+	<script src="js/parser.js"></script>
+	<script src="js/keys.js"></script>
+	<script src="js/lifeview.js"></script>
+	<title>LifeViewer | GmingRealm</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="../../images/ico.ico" type="image/x-icon">
+	<script src="../../storage/js/cloak.js"></script>
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			margin: 0;
+			min-height: 100vh;
+			background-color: #1a1a1a;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #ffffff;
+		}
+
+		.viewer {
+			text-align: center;
+			background-color: #2d2d2d;
+			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+		}
+
+		canvas {
+			box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+		}
+
+		textarea {
+			font-family: 'Roboto Mono', monospace;
+			padding: 12px;
+			border: 1px solid #404040;
+			border-radius: 5px;
+			resize: vertical;
+			margin-right: 10px;
+			background-color: #333333;
+			color: #ffffff;
+			font-size: 14px;
+			line-height: 1.4;
+		}
+
+		textarea:focus {
+			outline: none;
+			border-color: #2196F3;
+			box-shadow: 0 0 10px rgba(33, 150, 243, 0.2);
+		}
+
+		button {
+			background-color: #2196F3;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			padding: 12px 24px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px !important;
+			font-weight: 500;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		button:hover {
+			background-color: #1976D2;
+			transform: translateY(-1px);
+			box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+		}
+
+		button:active {
+			transform: translateY(0);
+		}
+
+		.textarea-container {
+			display: none;
+			margin: 1rem 0;
+		}
+
+		.textarea-container.active {
+			display: block;
+		}
+
+		.toggle-button {
+			margin: 1rem 0;
+			background-color: #424242;
+		}
+
+		.toggle-button:hover {
+			background-color: #616161;
+		}
+
+		.toggle-button.active {
+			background-color: #2196F3;
+		}
+
+		.toggle-button.active:hover {
+			background-color: #1976D2;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="viewer">
+		<canvas width="560" height="560"></canvas>
+		<br>
+		<button type="button" class="toggle-button" onclick="toggleTextarea()" style="font-size: 16px">
+			Toggle Data Import
+		</button>
+		<div class="textarea-container">
+			<textarea rows=4 cols=89 style="display:inline-block; vertical-align:top">
 # Type or paste RLE data into this box and click on the View button.
 # You can save the pattern into this box with Settings/Pattern/Save or Ctrl-S.
 x = 9, y = 5, rule = B3/S23
-$bo3b3o$b3o2bo$2bo!
-</textarea>
+$bo3b3o$b3o2bo$2bo!</textarea>
 			<button type="button" onclick="updateMe(this); return false;" style="font-size:32px; display:inline-block; vertical-align:top">View</button>
 			<br>
 		</div>
-	</body>
+	</div>
+	<script>
+		function toggleTextarea() {
+			const container = document.querySelector('.textarea-container');
+			const button = document.querySelector('.toggle-button');
+			container.classList.toggle('active');
+			button.classList.toggle('active');
+		}
+	</script>
+</body>
+
 </html>
