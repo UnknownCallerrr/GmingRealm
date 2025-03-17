@@ -3,7 +3,7 @@
   <p align="center">
     GmingRealm; The ultimate gaming website with 500+ games, as well as exploits for pretty much everything
     <br/>
-    <a href="https://superredeyeball.vercel.app/">view demo</a>
+    <a href="https://superredeyeball.netlify.app/">view demo</a>
     ·
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU1CELhxTF7WqrW2ujKs9DHI1gANNJQqzN7Ojz6i8sIe-X6A/viewform?usp=sf_link">report issues / request feature</a>
     <br>
